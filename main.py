@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-st.set_page_config(page_title="Processor review Chatbot", layout="wide")
+st.set_page_config(page_title="Processor Chatbot", layout="wide")
 
 # Get the Google API key from the environment variable
 api_key = os.getenv("GOOGLE_API_KEY")  # Make sure to set this in your .env file
